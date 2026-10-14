@@ -1,4 +1,7 @@
 package com.example.demo.utils;
 
-public class ILock {
+public interface ILock {
+    boolean tryLock(Long timeoutSec);
+
+    void unlock();
 }

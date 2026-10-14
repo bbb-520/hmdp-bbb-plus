@@ -10,9 +10,4 @@ import org.springframework.stereotype.Service;
 @Service
 @Slf4j
 public class UserInfoServiceImpl extends ServiceImpl<UserInfoMapper, UserInfo> implements IUserInfoService {
-    @Override
-    public Object getUserId() {
-
-        return null;
-    }
 }

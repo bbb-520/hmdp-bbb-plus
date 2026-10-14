@@ -1,4 +1,7 @@
 package com.example.demo.service;
 
-public interface IUserInfoService {
+import com.baomidou.mybatisplus.extension.service.IService;
+import com.example.demo.entity.UserInfo;
+
+public interface IUserInfoService extends IService<UserInfo> {
 }

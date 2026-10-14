@@ -28,10 +28,10 @@ public class OpenApiConfig {
 
 
     @Bean
-    public GroupedOpenApi userApi() {
+    public GroupedOpenApi allApi() {
         return GroupedOpenApi.builder()
-                .group("用户模块")
-                .pathsToMatch("/user/**")
+                .group("00-全部接口")
+                .pathsToMatch("/**")
                 .build();
     }
 }
